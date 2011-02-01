@@ -18,8 +18,6 @@ GetOptions(\%opt,
 	'form!',
 );
 
-#http://users.ipfw.edu/jehle/VERBLIST.HTm
-
 if ($opt{test}) {
 	my ($correct, $incorrect) = (0, 0);
 	while(1) {

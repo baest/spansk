@@ -11,9 +11,11 @@ our @EXPORT = qw/@verbs verb_form remove_accent get_form get_random_form get_ran
 my @form = qw(yo tú el/ella nosotros vosotros ellos/ellas);
 my @form_danish = qw(jeg du han/hun vi i de);
 
+#http://users.ipfw.edu/jehle/VERBLIST.HTm
+
 our @verbs = qw/jugar llamo caer dar salir venir estudiar cantar usar conocer decir saber ver ser beber tocar oir poner/;
 #@verbs = qw/costar jugar estar llamar poder caer dar salir venir estudiar cantar usar conocer decir saber ver ser tener beber tocar oir hacer poner/;
-@verbs = qw/hablar comer vivir costar ir seguir paseamos querer ser traer poder hacer andar tener estar/;
+@verbs = qw/hablar comer vivir costar ir seguir pasear querer ser traer poder hacer andar tener estar comprar/;
 
 my %endings = (
 	ar => [ qw/o as a amos áis an/ ],
