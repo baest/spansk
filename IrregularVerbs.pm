@@ -8,7 +8,6 @@ our @EXPORT = qw/%iverbs %replace/;
 
 our %iverbs = (
 	ir      => [qw/voy vas va vamos vais van/],
-	paseamos=> [qw/paseo paseas paso pasemos paseís pason/],
 	ser     => [qw/soy eres es somos sois son/],
 );
 
@@ -24,4 +23,4 @@ our %replace = (
 	estar => [ [4], 's/a/á/', { 1 => 'estoy' } ],
 );
 
-1;
+"hablo";
