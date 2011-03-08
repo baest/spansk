@@ -15,7 +15,7 @@ my @form_danish = qw(jeg du han/hun vi i de);
 
 our @verbs = qw/jugar llamo caer dar salir venir estudiar cantar usar conocer decir saber ver ser beber tocar oir poner/;
 #@verbs = qw/costar jugar estar llamar poder caer dar salir venir estudiar cantar usar conocer decir saber ver ser tener beber tocar oir hacer poner/;
-@verbs = qw/hablar comer vivir costar ir seguir pasear querer ser traer poder hacer andar tener estar comprar/;
+@verbs = qw/hablar llamar comer vivir costar ir seguir pasear querer ser traer poder hacer andar tener estar comprar viajar cerrar/;
 
 my %endings = (
 	ar => [ qw/o as a amos áis an/ ],

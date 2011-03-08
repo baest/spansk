@@ -21,6 +21,7 @@ our %replace = (
 	tener => [ [1,4,5], 's/e/ie/', { 1 => 'tengo' }],
 	poder => [ [4,5], 's/o/ue/'],
 	estar => [ [4], 's/a/á/', { 1 => 'estoy' } ],
+	cerrar => [ [4,5], 's/e/ie/' ],
 );
 
 "hablo";
